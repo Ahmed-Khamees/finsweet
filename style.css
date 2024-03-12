@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 8px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+a {
+    font-size: 2rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.opacity-07 {
+    opacity: 0.7;
+}
+
+.opacity-08 {
+    opacity: 0.8;
+}
+
+.dark-blue {
+    color: rgba(40, 41, 56, 1) !important;
+}
+
+.white {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.royal-blue {
+    color: rgba(36, 5, 242, 1);
+}
+
+.yellow {
+    color: rgba(252, 217, 128, 1);
+}
+
+.grey{
+    background: rgba(244, 246, 252, 1);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-d-column {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fit-cover {
+    object-fit: cover;
+}
+
+.black-backgroud {
+    background: rgba(28, 30, 83, 1);
+}
+
+.btn-radius {
+    border-radius: 5.16rem;
+}
+
+.small-btn {
+    border: .25rem solid #f4f6fc20;
+    padding: 2rem 6rem;
+}
+
+.big-btn {
+    background: rgba(252, 217, 128, 1);
+    font-family: "Manrope";
+    color: rgba(27, 28, 43, 1);
+    text-align: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+/* header start */
+
+.nav-bar {
+    padding: 2rem 0;
+}
+
+.nav-bar nav {
+    gap: 6rem;
+}
+
+.nav-bar .logo {
+    width: 15.25rem;
+}
+
+.nav-bar-links {
+    width: 59.16rem;
+}
+
+.nav-bar-links a {
+    color: rgba(187, 187, 203, 1);
+}
+
+.nav-bar-links a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* header end */
+
+/* hero start */
+
+.hero {
+    padding: 16rem 0;
+}
+
+.hero .container {
+    /* gap: 7.5rem; */
+    justify-content: space-between;
+}
+
+.hero h1 {
+    font-size: 6.75rem;
+    padding-bottom: 2rem;
+}
+
+.hero .details p {
+    padding-bottom: 6rem;
+}
+
+.hero .image {
+    max-width: 49.8%;
+}
+
+.hero .details {
+    /* height: 51.75rem; */
+    max-width: 63rem;
+}
+
+
+.hero .big-btn {
+    padding: 2rem 7rem;
+    
+}
+
+.hero .view-pricing {
+    gap: 5rem;
+}
+
+.hero .view-pricing div {
+    gap: 2rem;
+}
+
+/* hero end */
+
+/* how we work start */
+
+.how-we-work {
+    background: rgba(244, 246, 252, 1);
+}
+
+.how-we-work h1 {
+    font-size: 6rem;
+}
+
+.how-we-work a {
+    font-size: 2.25rem;
+}
+
+.how-we-work .details {
+    max-width: 57.75rem;
+    gap: 2rem;
+}
+
+.how-we-work .container {
+    padding-right: .75rem;
+    /* gap: 16.75rem; */
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+    /* align-items: top; */
+}
+
+.how-we-work .our-values-container {
+    row-gap: 6rem;
+    min-width: 57.5%;
+}
+
+.how-we-work .details div {
+    gap: 2rem;
+}
+
+.how-we-work .details img {
+    width: 3rem;
+}
+
+.how-we-work .details p {
+    max-width: 41rem;
+}
+
+.how-we-work .our-values {
+    /* max-width: 51.875%; */
+    /* flex-wrap: wrap; */
+    gap: 1rem;
+    row-gap: 6rem;
+}
+
+.how-we-work .our-values .value {
+    gap: 1.5rem;
+    /* max-width: 37.39%; */
+}
+
+.how-we-work .our-values .value img {
+    width: 6.25rem;
+}
+
+.how-we-work .our-values .value h2 {
+    font-size: 4rem;
+}
+
+.how-we-work .our-values .value p {
+    font-size: 2rem;
+    max-width: 36rem;
+}
+
+/* how we work end */
+
+/* our projects start */
+
+.our-projects .title h1 {
+    font-size: 6rem;
+}
+
+.our-projects .container {
+    row-gap: 8rem;
+}
+
+.our-projects .workhub h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.our-projects .workhub p {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+.our-projects .overlay {
+    height: 100%;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+
+.our-projects .unisaas .overlay {
+    width: 100%;
+}
+
+.our-projects .workhub .overlay {
+    width: 47%;
+    padding: 0 5.2%;
+    align-items: end;
+}
+
+.our-projects .workhub .details {
+    height: 47%;
+}
+
+.our-projects .unisaas h1 {
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+}
+
+.our-projects .unisaas .overlay {
+    padding: 0 14%;
+    align-items: end;
+}
+
+.our-projects .unisaas .details {
+    height: 54.5%;
+}
+
+.our-projects .holder{
+    gap: 4rem;
+}
+
+.our-projects .portfolio{
+    row-gap: 4rem;
+}
+/* our projects end */
+
+/* design start */
+
+.design .container{
+    padding: 16rem 0;
+}
+
+.design .title{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.design .title h1{
+    font-size: 6rem; 
+    margin-bottom: 5.87rem;
+}
+
+.design .title h2{
+    font-size: 2rem; 
+}
+
+.design .cards-container{
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.design .card{
+    padding-left: 6.04rem;
+    padding-right: 3rem;
+    background: rgba(255, 255, 255, 1);
+    max-width: 31%;
+    padding-top: 7.25rem;
+    padding-bottom: 6rem;
+}
+
+.design .card img{
+    margin-bottom: 2.76rem;
+}
+
+.design .card h2{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+/* design end */
+
+/* building stellar start */
+
+.building-stellar .container{
+    font-size: 0;
+    align-items: stretch;
+}
+
+.building-stellar .overlay h1{
+    font-size: 6.75rem;
+    line-height: 9.25rem;
+    margin-bottom: 3rem;
+}
+
+.building-stellar .overlay{
+    background: rgba(28, 30, 83, 0.5);
+    height: 100%;
+    
+}
+
+.building-stellar .overlay{
+    padding: 12rem;
+    padding-bottom: 0;
+}
+
+.building-stellar .form-holder{
+    background: rgba(28, 30, 83, 1);
+    /* height: 100%; */
+    padding-top: 12rem;
+}
+
+.building-stellar .contact-form{
+    margin: 0 auto;
+    max-width: 69%;
+}
+
+.building-stellar .contact-form h2{
+    font-size: 4rem; 
+    margin-bottom: 2rem;
+}
+
+.building-stellar .contact-form p{
+    margin-bottom: 5rem;
+}
+
+.building-stellar .contact-form input{
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    border-radius: 1rem;
+    color: rgba(244, 246, 252, 0.5);
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    min-height: 8rem;
+    padding-left: 4rem;
+}
+
+.building-stellar .contact-form div{
+    gap: 2rem;
+    margin-bottom: 4.88rem;
+}
+
+.building-stellar .big-btn{
+    margin-bottom: 3.5rem;
+    padding: 2rem 0;
+}
+
+.building-stellar .arrow-link{
+    width: 30.5rem;
+    margin: 0 auto;
+}
+
+/* building stellar end */
+
+/* our blog start */
+
+.our-blog .container{
+    gap: 8rem;
+}
+
+.our-blog h1{
+    font-size: 6rem;
+}
+
+.our-blog .articles-holder{
+    gap: 4rem;
+}
+
+.our-blog article .details{
+    gap: 4rem;
+    margin-bottom: 4rem;
+}
+
+.our-blog article{
+    max-width: 50.625rem;
+}
+
+.our-blog article .img-holder{
+    margin-bottom: 5rem;
+    font-size: 0;
+}
+
+.our-blog article img{
+    width: 100%;
+}
+
+.our-blog article .description{
+    font-size: 3rem;
+}
+
+/* our blog end */
+
+/* contact us start */
+
+.contact-us{
+    background: rgba(28, 30, 83, 1);
+    min-height: 49.625rem;
+}
+
+.contact-us .about{
+    max-width: 64.625rem;
+    padding-top: 13rem;
+}
+
+.contact-us .about .contact{
+    background: rgba(252, 217, 128, 1);
+    gap: 3.63rem;
+    padding-bottom: 2rem;
+    padding-top: 2.25rem;
+    padding-left: 4.63rem;
+}
+
+.contact-us .about .contact .title{
+    font-size: 2.25rem;
+    padding-bottom: 1rem;
+}
+
+.contact-us .about .img-holder{
+    margin-bottom: 2.95rem;
+}
+
+.contact-us .about .details {
+    margin-bottom: 11.1rem;
+  }
+/* contact us end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1170px) {
+    .hero .image {
+        display: none;
+    }
+
+    .how-we-work .container {
+        flex-wrap: wrap;
+        row-gap: 6rem;
+    }
+
+    .how-we-work .our-values-container {
+        row-gap: 6rem;
+        min-width: 100%;
+    }
+
+    .how-we-work .our-values {
+        justify-content: space-around;
+    }
+
+    .hero .details {
+        /* height: 51.75rem; */
+        max-width: 85rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .how-we-work .our-values {
+        flex-wrap: wrap;
+    }
+
+    .how-we-work .details {
+        margin: 0 auto;
+    }
+
+
+    .hero .view-pricing {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
